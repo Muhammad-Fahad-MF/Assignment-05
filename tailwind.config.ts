@@ -11,7 +11,15 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mainDiv: "#FFF8F8"
       },
+      boxShadow: {
+        custom : '0px 0px 20px 10px rgba(0, 0, 0, 0.1)',
+      },
+      fontFamily: {
+        rye: ['Rye'],
+        libre: ['Libre'] 
+      }
     },
   },
   plugins: [],
